@@ -1,0 +1,22 @@
+.jumbotron{
+  background: linear-gradient(39deg,#2D6597 1%,#143C68 76%);
+  background-size: cover;
+  height: 35vh;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.jumbotron h1{
+  padding-top: 12vh;
+}
+
+.spotlight, .testimonials{
+  background: #E9EBED;
+}
+
+.card-img-overlay{
+  padding-top: 7em;
+}
+
+
+
