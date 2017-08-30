@@ -1,3 +1,7 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .jumbotron{
   background: url('/resources/img/hero.jpeg') no-repeat center center;
   background-size: cover;
@@ -8,8 +12,63 @@
 
 .jumbotron h1{
   padding-top: 30vh;
+  font-weight: 100;
 }
 
 .spotlight, .testimonials{
   background: #E9EBED;
+}
+
+.nav-item{
+  padding: 7px 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar .btn{
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 7px 20px;
+  font-weight: 700;
+}
+
+.navbar-brand{
+  filter: brightness(20%);
+}
+
+.subText{
+  max-width: 35%;
+  margin-left: 32%;
+  line-height: 2em;
+}
+
+#action{
+  background-color: #5CB785;
+  border-radius: 100px;
+  padding: 14px 10px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 199px;
+  letter-spacing: .1em;
+}
+
+.align{
+  margin-top: 30px;
+}
+
+.fa-angle-right{
+  font-size: 50px;
+  border: solid;              
+  border-radius: 100%;
+  padding: 4px 20px;
+}
+
+.spotlight{
+  padding: 5%;
+}
+
+.spotlight p{
+  font-weight: 400;
 }
