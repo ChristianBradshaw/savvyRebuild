@@ -1,0 +1,15 @@
+.jumbotron{
+  background: url('/resources/img/hero.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.jumbotron h1{
+  padding-top: 30vh;
+}
+
+.spotlight, .testimonials{
+  background: #E9EBED;
+}

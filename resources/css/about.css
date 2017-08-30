@@ -13,3 +13,20 @@
 .spotlight, .testimonials{
   background: #E9EBED;
 }
+
+.container-fluid{
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.coolGuy{
+  width: 475px;
+  max-height: 383px;
+}
+
+.person{
+  width: 325px;
+  max-height: 383px;
+}
