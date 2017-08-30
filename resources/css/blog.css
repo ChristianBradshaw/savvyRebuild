@@ -6,10 +6,24 @@
   border-radius: 0;
 }
 
-.jumbotron h1{
-  padding-top: 30vh;
-}
-
 .spotlight, .testimonials{
   background: #E9EBED;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.heroCoin{
+  height: 70%;
+  max-width: 100%;
+}
+
+.form-control{
+  width: 40%;
+}
+
+.blogImg{
+  width: 35vh;
+  height: 20vh;
 }
