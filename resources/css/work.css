@@ -1,3 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+ol,ul{
+  list-style: none;
+}
+
+.grid{
+  max-width: 75%
+}
+
+.card{
+  border: 0;
+  background: #000000;
+}
+
+.card-img{
+  opacity: .4;
+  height: 100%;
+}
+
+.card:hover{
+  filter: brightness(.7);
+  transition-duration: 0.75s;
+}
+
+.caption{
+  padding-top: 50px;
+}
+
+/*borderColors*/
+
+.borderRed{
+  border-bottom: 4px solid;
+  border-color: #F44138;
+}
+
+.borderGreen{
+  border-bottom: 4px solid;
+  border-color: #72B085;
+}
+
+.borderBlue{
+  border-bottom: 4px solid;
+  border-color: #2F97DC;
+}
+
+.borderPurple{
+  border-bottom: 4px solid;
+  border-color: #9E00EA;
+}
+
+/*/borderColors*/
+
+
 .jumbotron{
   background: linear-gradient(39deg,#2D6597 1%,#143C68 76%);
   background-size: cover;
@@ -22,5 +79,124 @@ li{
   list-style: none;
 }
 
+.nav-item{
+  padding: 7px 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.navbar .btn{
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 7px 20px;
+  font-weight: 700;
+}
 
+.navbar-brand{
+  filter: brightness(20%);
+}
+
+/*otherwork*/
+
+.otherWork{
+  background: #e9ebed;
+  margin-bottom: -95px;
+}
+
+.otherWork h2{
+  font-weight: 300;
+}
+
+.otherWork ul{
+  margin-left: -40px;
+}
+
+.otherWork .fa{
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.checkGreen{
+  color: #72B085;
+}
+
+.checkRed{
+  color: #F44138;
+}
+.checkBlue{
+  color: #2F97DC;
+}
+
+.hrRed{
+  color: #F44138;
+  background-color: #F44138;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+
+.hrBlue{
+  color: #2F97DC;
+  background-color:  #2F97DC;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+
+.hrGreen{
+  color: #72B085;
+  background-color: #72B085;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+
+.works{
+  margin-bottom: 5%;
+}
+
+.pbs{
+  margin-left: -300px;
+}
+
+/*/otherwork*/
+
+/*footer*/
+
+.darkBlue h1{
+  padding: 40px 60px 50px;
+  margin-top: 10px;
+}
+.lightBlue{
+  background: #3287C4;
+}
+.lightBlue p{
+  margin-left: 75%;
+  font-weight: 700;
+  font-size: 12px;
+}
+.darkBlue{
+  background: #2E7CB4;
+}
+.footerMain{
+  background: #323435;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+footer h2{
+  color: #FFFFFF;
+}
+footer p, footer li{
+  color: #8b9197;
+}
+footer li{
+  font-size: 14px;
+  padding-top: 10px;
+}
+footer .fa{
+  font-size: 30px;
+}
+
+/*footer*/
