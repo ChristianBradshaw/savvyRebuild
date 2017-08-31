@@ -145,6 +145,10 @@ li{
   margin: 0 0 25px;
 }
 
+.header{
+  font-size: 40px;
+}
+
 .hrGreen{
   color: #72B085;
   background-color: #72B085;
