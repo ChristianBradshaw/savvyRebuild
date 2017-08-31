@@ -1,8 +1,12 @@
-body{
+body {
+  overflow-x: hidden;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.jumbotron{
+.jumbotron {
   background: url('/resources/img/hero.jpeg') no-repeat center center;
   background-size: cover;
   height: 90vh;
@@ -13,9 +17,10 @@ body{
 .jumbotron h1{
   padding-top: 30vh;
   font-weight: 100;
+  
 }
 
-.spotlight, .testimonials{
+.spotlight, .testimonials {
   background: #E9EBED;
 }
 
@@ -71,4 +76,13 @@ body{
 
 .spotlight p{
   font-weight: 400;
+}
+
+.weImage{
+  width: 105%;
+  overflow: auto
+}
+
+.textWeAre{
+  padding: 15% 6%;
 }
