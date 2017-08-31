@@ -1,9 +1,10 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
+ol,ul{
+  list-style: none;
 }
 
 .jumbotron {
@@ -85,4 +86,83 @@ body {
 
 .textWeAre{
   padding: 15% 6%;
+}
+
+.testiSegs{
+  text-align: center;
+  margin-left: 465px;
+}
+
+.testimonials p{
+  font-weight: 300;
+}
+
+.blog{
+  padding: 7%;
+  margin: 0 5%;
+}
+
+.blog h4{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.card-body{
+  padding: 10px 0;
+}
+
+hr{
+  color: #3287C4;
+  background-color: #3287C4;
+  height: 2px;
+  width: 4%;
+}
+
+.darkBlue h1{
+  padding: 40px 60px 50px;
+  margin-top: 10px;
+}
+
+.lightBlue{
+  background: #3287C4;
+}
+
+.lightBlue p{
+  margin-left: 75%;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.darkBlue{
+  background: #2E7CB4;
+}
+
+.footerMain{
+  background: #323435;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+
+footer h2{
+  color: #FFFFFF;
+}
+
+footer p, footer li{
+  color: #8b9197;
+}
+
+footer li{
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.hrSpecial {
+  width: 100%;
+  background-color: #fff;
+  height: 25%;
+  filter: opacity(10%);
+}
+
+footer .fa{
+  font-size: 30px;
 }
