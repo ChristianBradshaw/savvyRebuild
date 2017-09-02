@@ -178,3 +178,65 @@ ol,ul{
 }
 
 /*/borderColors*/
+
+/*wrapper*/
+
+.wrapper{
+  padding: 50px;
+}
+
+/*wrapper*/
+
+/*weDo*/
+
+.weDo{
+  background: #e9ebed; 
+}
+
+.weDo h5{
+  font-weight: 400;
+}
+
+.icon{
+  float: left;
+}
+
+/*weDo*/
+
+/*footer*/
+
+.darkBlue h1{
+  padding: 40px 60px 50px;
+  margin-top: 10px;
+}
+.lightBlue{
+  background: #3287C4;
+}
+.lightBlue p{
+  margin-left: 75%;
+  font-weight: 700;
+  font-size: 12px;
+}
+.darkBlue{
+  background: #2E7CB4;
+}
+.footerMain{
+  background: #323435;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+footer h2{
+  color: #FFFFFF;
+}
+footer p, footer li{
+  color: #8b9197;
+}
+footer li{
+  font-size: 14px;
+  padding-top: 10px;
+}
+footer .fa{
+  font-size: 30px;
+}
+
+/*footer*/
