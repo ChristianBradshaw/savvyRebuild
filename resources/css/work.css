@@ -79,6 +79,8 @@ li{
   list-style: none;
 }
 
+/*navbar*/
+
 .nav-item{
   padding: 7px 20px;
   font-size: 15px;
@@ -97,6 +99,9 @@ li{
 .navbar-brand{
   filter: brightness(20%);
 }
+
+
+/*/navbar*/
 
 /*otherwork*/
 
