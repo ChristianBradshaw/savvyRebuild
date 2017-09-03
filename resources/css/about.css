@@ -1,9 +1,20 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
 .jumbotron{
   background: url('/resources/img/aboutHero.jpeg') no-repeat center center;
   background-size: cover;
   height: 62vh;
   padding-top: 0;
   border-radius: 0;
+  margin-bottom: 0;
+}
+
+p{
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .jumbotron h1{
@@ -13,6 +24,29 @@
 .spotlight, .testimonials{
   background: #E9EBED;
 }
+
+/*navbar*/
+
+.nav-item{
+  padding: 7px 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar .btn{
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 7px 20px;
+  font-weight: 700;
+}
+
+.navbar-brand{
+  filter: brightness(20%);
+}
+
+/*navbar*/
 
 .container-fluid{
   overflow: hidden;
@@ -30,3 +64,167 @@
   width: 325px;
   max-height: 383px;
 }
+
+.display-4{
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+/*hr*/
+
+.hrRed{
+  color: #F44138;
+  background-color: #F44138;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+.hrBlue{
+  color: #2F97DC;
+  background-color:  #2F97DC;
+  height: 3px;
+  width: 7%;
+  margin: 35px auto;
+}
+.hrGreen, .hrGreenMod{
+  color: #72B085;
+  background-color: #72B085;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+
+.hrGreenMod{
+  margin: 0 auto;
+}
+
+/*hr*/
+
+/*life*/
+
+.life{
+  padding: 60px 0;
+}
+
+/*/life*/
+
+/*accolades*/
+
+.accolades{
+  padding: 100px 0;
+  background: #E9EBED;
+}
+
+.keynote{
+  padding-top: 65px;
+}
+
+/*/accolades*/
+
+/*othersSay*/
+
+.othersSay{
+  padding: 80px 0;
+}
+
+/*/othersSay*/
+
+/*grid*/
+
+.imgsWrapper{
+  background: rgb(51,73,95);
+}
+
+.imgs{
+  opacity: .4;
+}
+
+.imgs:hover{
+  opacity: 1;
+  transition-duration: 0.75s;
+}
+
+/*/grid*/
+
+/*guiding*/
+
+.guiding{
+  padding: 90px 0 12px;
+}
+
+.icon {
+  float: left;
+  font-size: 64px;
+}
+
+li{
+  list-style: none;
+}
+
+.numberWrap{
+  background: #3287C4;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+
+/*/guiding*/
+
+/*ceo*/
+
+.ceo{
+  background: #E9EBED;
+  padding: 112px;
+}
+
+.ceoImg{
+  border-radius: 100%;
+}
+
+.ceoSocial{
+  font-size: 64px;
+}
+
+/*/ceo*/
+
+/*footer*/
+
+.darkBlue h1{
+  padding: 40px 60px 50px;
+  margin-top: 10px;
+}
+.lightBlue{
+  background: #3287C4;
+}
+.lightBlue p{
+  margin-left: 75%;
+  font-weight: 700;
+  font-size: 12px;
+}
+.darkBlue{
+  background: #2E7CB4;
+}
+.footerMain{
+  background: #323435;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+footer h2{
+  color: #FFFFFF;
+}
+footer p, footer li{
+  color: #8b9197;
+}
+footer li{
+  font-size: 14px;
+  padding-top: 10px;
+}
+footer .fa{
+  font-size: 30px;
+}
+
+/*footer*/
