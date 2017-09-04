@@ -1,3 +1,32 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.display-4{
+  font-size: 32px;
+  margin-top: 15px;
+}
+
+.display-5{
+  font-size: 24px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.navbar{
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.16);
+}
+
+
 .jumbotron{
   background: url('/resources/img/hero.jpeg') no-repeat center center;
   background-size: cover;
@@ -14,11 +43,6 @@
   padding: 0;
 }
 
-.heroCoin{
-  height: 70%;
-  max-width: 100%;
-}
-
 .form-control{
   width: 40%;
 }
@@ -27,3 +51,218 @@
   width: 35vh;
   height: 20vh;
 }
+
+/*navbar*/
+
+.nav-item{
+  padding: 7px 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar .btn{
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 7px 20px;
+  font-weight: 700;
+}
+
+.navbar-brand{
+  filter: brightness(20%);
+}
+
+/*navbar*/
+
+/*hero*/
+
+.heroText{
+  padding: 70px;
+}
+
+.coinText{
+  margin: 0;
+  padding: 13% 4%;
+  color: black;
+  background: url(/resources/img/coin.jpeg)
+}
+
+.coinWrap{
+  height: 100%;
+}
+
+/*/hero*/
+
+/*cards*/
+
+.cards{
+  background: #E9EBED;
+  padding: 50px 0 90px;
+}
+
+.card-title{
+  font-weight: 300;
+  
+}
+
+/*cards*/
+
+/*otherPeople*/
+
+.otherPeople{
+  padding-bottom: 60px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fireBg{
+  background-color: #D45046;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.fa-fire{
+  font-size: 35px;
+}
+
+.peopleImages{
+  width: 25rem;
+}
+
+.overText{
+  padding-top: 34px;
+}
+
+/*otherPeople*/
+
+/*readers*/
+
+.readers{
+  background: #E9EBED;
+  padding: 48px 0;
+}
+
+.btnReader{
+  background: #5cb785;
+  font-size: 700;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0!important;
+}
+
+.form-control{
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.connectIcons{
+  font-size: 24px;
+  margin: 10px 10px 0 0;
+}
+
+.dribble{
+  color: #EE4589;
+}
+
+.twitter{
+  color: #4BAAF4;
+}
+
+.linkedin{
+  color: #0076B7;
+}
+
+.facebook{
+  color: #39579A;
+}
+
+.instagram{
+  color: #7E8486;
+}
+
+
+
+
+
+/*readers*/
+
+/*hr*/
+
+.hrRed{
+  color: #F44138;
+  background-color: #F44138;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+.hrBlue{
+  color: #2F97DC;
+  background-color:  #2F97DC;
+  height: 3px;
+  width: 7%;
+  margin: 35px auto;
+}
+
+.hrWhite{
+  color: #FFF;
+  background-color:  #FFF;
+  height: 3px;
+  width: 7%;
+  margin: 35px auto;
+}
+
+
+.hrGreen, .hrGreenMod{
+  color: #72B085;
+  background-color: #72B085;
+  height: 3px;
+  width: 7%;
+  margin: 0 0 25px;
+}
+
+.hrGreenMod{
+  margin: 0 auto;
+}
+
+/*/hr*/
+
+/*footer*/
+
+.darkBlue h1{
+  padding: 40px 60px 50px;
+  margin-top: 10px;
+}
+.lightBlue{
+  background: #3287C4;
+}
+.lightBlue p{
+  margin-left: 75%;
+  font-weight: 700;
+  font-size: 12px;
+}
+.darkBlue{
+  background: #2E7CB4;
+}
+.footerMain{
+  background: #323435;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+footer h2{
+  color: #FFFFFF;
+}
+footer p, footer li{
+  color: #8b9197;
+}
+footer li{
+  font-size: 14px;
+  padding-top: 10px;
+}
+footer .fa{
+  font-size: 30px;
+}
+
+/*footer*/
