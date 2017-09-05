@@ -175,7 +175,9 @@ footer .fa{
     visibility: hidden;
   }
 }
-  .jumbotron {
+
+@media(max-width: 400px){
+    .jumbotron {
     height: 100vh;
   }
   
@@ -201,11 +203,9 @@ footer .fa{
   padding-right: 35px;
   margin-left: 35px;
 }
-
-
-
-  
-
 }
+
+
+
 
 /*/mediaQueries*/
