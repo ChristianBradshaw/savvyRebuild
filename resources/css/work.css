@@ -81,6 +81,10 @@ li{
 
 /*navbar*/
 
+.active{
+  border-bottom: solid #2F97DC;
+}
+
 .nav-item{
   padding: 7px 20px;
   font-size: 15px;
@@ -209,3 +213,21 @@ footer .fa{
 }
 
 /*footer*/
+
+/*mediaQueries*/
+
+@media(max-width:400px){
+  .customerImgs{
+    padding: 15px;
+  }
+  
+  .customerImgWrap{
+    padding: 0;
+  }
+  
+  .header{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 400;
+  }  
+}
