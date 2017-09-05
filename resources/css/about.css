@@ -48,6 +48,10 @@ p{
 
 /*navbar*/
 
+.active{
+  border-bottom: solid #2F97DC;
+}
+
 .container-fluid{
   overflow: hidden;
   width: 100%;

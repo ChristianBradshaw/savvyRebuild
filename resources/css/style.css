@@ -25,6 +25,10 @@ ol,ul{
   background: #E9EBED;
 }
 
+.active{
+  border-bottom: solid #2F97DC;
+}
+
 .nav-item{
   padding: 7px 20px;
   font-size: 15px;
@@ -45,8 +49,6 @@ ol,ul{
 }
 
 .subText{
-  max-width: 35%;
-  margin-left: 32%;
   line-height: 2em;
 }
 
@@ -88,9 +90,8 @@ ol,ul{
   padding: 15% 6%;
 }
 
-.testiSegs{
-  text-align: center;
-  margin-left: 465px;
+.testiBlocks{
+  margin-left: 12%;
 }
 
 .testimonials p{
@@ -166,3 +167,45 @@ footer li{
 footer .fa{
   font-size: 30px;
 }
+
+/*mediaQueries*/
+
+@media(max-width: 400px){
+  .jumbotron .contactButton{
+    visibility: hidden;
+  }
+}
+  .jumbotron {
+    height: 100vh;
+  }
+  
+  .jumbotron h1{
+    font-size: 64px;
+    width: 100%;
+    padding-top: 240px;
+  }
+  
+    .jumbotron h4{
+    font-size: 16px;
+  }
+
+    .awards{
+      padding-top: 75px;
+    }
+
+    .awardsAmazon{
+      padding-bottom: 75px;
+    }
+
+.socials{
+  padding-right: 35px;
+  margin-left: 35px;
+}
+
+
+
+  
+
+}
+
+/*/mediaQueries*/

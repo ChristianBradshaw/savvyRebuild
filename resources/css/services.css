@@ -31,6 +31,10 @@ ol,ul{
 
 /*navbar*/
 
+.active{
+  border-bottom: solid #2F97DC;
+}
+
 .nav-item{
   padding: 7px 20px;
   font-size: 15px;
